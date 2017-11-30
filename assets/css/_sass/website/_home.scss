@@ -1,4 +1,15 @@
+// reference for queries: https://davidwalsh.name/write-media-queries-sass
+
 .overview-footer {
+  @include phone {
+    max-width: $tablet-screen;
+  }
+  @include tablet {
+    max-width: $tablet-screen;
+  }
+  @include desktop {
+    min-width: $tablet-screen;
+  }
   background-color: $grey900;
   text-align: center;
   display: flex;
@@ -41,14 +52,7 @@
   };
 }
 .overview-wrapper {
-  display: flex;
-  .overview-content {
-    box-sizing: border-box;
-    text-align: center;
-    overflowY: scroll;
-    flex: 1;
-    margin-left: 15rem;
-};
+  // display: flex;
   background-image: url(../images/Helix_Homepage_Pattern.svg);
   background-color: $grey25;
   background-repeat: no-repeat;
@@ -66,11 +70,25 @@
 }
 
 .overview-content {
+  @include phone {
+    max-width: $mobile-screen;
+  }
+  @include tablet {
+    max-width: $tablet-screen;
+  }
+  @include desktop {
+    min-width: $tablet-screen;
+  }
+  box-sizing: border-box;
+  text-align: center;
+  overflowY: scroll;
+  margin-left: 15rem;
   padding: 0px 0px !important;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  height: 100%;
   p {
     font-size: $base-font-size !important;
     font-weight: $light-weight;
@@ -169,28 +187,4 @@
     float: right;
     margin-left: 0.625rem;
   }
-}
-@include phone {
-  .overview-content {
-    max-width: $tablet-width;
-  }
-  .overview-footer {
-    max-width: $tablet-width;
-  }
-}
-@include tablet {
-  .overview-content {
-    max-width: $tablet-width;
-  }
-  .overview-footer {
-    max-width: $tablet-width;
-  }
-}
-@include desktop {
-  // .overview-content {
-  //   padding: 0px 20% 0px 10%;
-  // }
-  // .overview-footer {
-  //   padding: 0px 20% 0px 10%;
-  // }
 }
