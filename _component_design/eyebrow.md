@@ -31,7 +31,7 @@ last-modified: 2017-08-30
 
 ### Best practice
 
-- The [Pilot navigation API](https://one.rackspace.com/display/reach/Pilot+Shared+Navigation) is highly recommended for use in UIs which will be presented along side customer facing applications, such as MyRackspace, FAWS, or the Rackspace Cloud Control Panel.
+- The [Pilot navigation API](https://one.rackspace.com/display/SP/Pilot+Shared+Navigation) is highly recommended for use in UIs which will be presented along side customer facing applications, such as MyRackspace, FAWS, or the Rackspace Cloud Control Panel.
 - For UIs which will not be integrated with our customer facing product portfolio, the  guidelines in this article can be used to construct eyebrow navigation.
 
 
@@ -97,7 +97,7 @@ The logo can only be clickable when the application has a default landing page, 
 ### Logo states
 
 - The logo can only be interacted with and clicked when the application has a default landing page, such as a dashboard or overview.
-- If the application has no landing page, then the logo only receives the detault state.
+- If the application has no landing page, then the logo only receives the default state.
 
 
 {% endcolumn %}
@@ -348,7 +348,7 @@ The logo can only be clickable when the application has a default landing page, 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [caption:"Menu section specificationsa"] [class:"image bg-light border"] %}
+{% figure [caption:"Menu section specifications"] [class:"image bg-light border"] %}
 <embed src="{{site.baseurl}}/assets/images/components/navigation/eyebrow/drop-down-menu-section.png" width="620"/>
 {% endfigure %}
 {% endcolumn %}

@@ -19,7 +19,7 @@ last-modified: 2017-10-24
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
-Rackspace products must be made accessible for everyone&mdash;regardless of a person’s abilities. We can assume from the statistics that many of our users have some form of visual impairment. [Colour Blind Awareness](http://www.colourblindawareness.org/) estimates that:
+Rackspace products must be made accessible for everyone&mdash;regardless of a person’s abilities. We can assume from the statistics that many of our users have some form of visual impairment. [Colour Blind Awareness <hx-icon type="external-link" />](http://www.colourblindawareness.org/){:target="_blank"} estimates that:
 
 - 4.5% of the global population experience color blindness (1 in 12 men and 1 in 200 women)
 - 4% suffer from low vision (1 in 30 people)

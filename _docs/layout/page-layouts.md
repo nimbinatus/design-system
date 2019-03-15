@@ -50,7 +50,7 @@ content area."] [class:"image bg-light border"] %}
 
 ### Content areas
 
-Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more details.
+Build the content area using a 12 Column Grid. See [grid]({{site.baseurl}}{% link _docs/layout/grid.md %}) for more details.
 
 #### Full width content area
 - Navigation is not a part of the 12 Column Grid.
